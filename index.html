@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Semantyczny</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+      }
+      header {
+        background: #e3e3e3;
+        overflow: auto;
+        border: 2px solid #333;
+        padding: 10px;
+      }
+      h1,
+      nav {
+        display: inline-block;
+        margin: 0;
+        vertical-align: top;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+      main,
+      aside,
+      footer,
+      article {
+        border: 2px solid #333;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      main {
+        display: flex;
+      }
+      .content {
+        flex-grow: 1;
+      }
+      aside {
+        width: 200px;
+        background: #e9e9ff;
+      }
+      footer {
+        background: #d3d3d3;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+    Nazwa Strony
+
+    Artykuł 1
+    Artykuł 2
+    Artykuł 
+
+
+    <div class="content">
+      Tytuł Artykułu 1
+      Krótki opis zawartości artykułu 1.
+
+      Tytuł Artykułu 2
+      Krótki opis zawartości artykułu 2.
+
+      Tytuł Artykułu 3
+      Krótki opis zawartości artykułu 3.
+    </div>
+
+    Dodatkowe Informacje
+    Tutaj znajdują się dodatkowe informacje lub linki.
+
+    Kontakt: kontakt@example.com
+  </body>
+</html>
