@@ -1,4 +1,4 @@
-# Nagłówki w HTML
+# HTML Semantyczny
 [Kliknij tutaj aby rozwiązać zadanie](https://githubbox.com/Publishing-School/html-zdanie-html-semantyczny)
 
 
